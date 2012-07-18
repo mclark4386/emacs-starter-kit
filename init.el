@@ -77,3 +77,7 @@
 (if (file-exists-p user-specific-config) (load user-specific-config))
 
 ;;; init.el ends here
+
+
+;;or does it... get that Haxe action going:
+(require 'haxe-mode)
